@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="43" started-at="2022-10-25T23:33:28Z" finished-at="2022-10-25T23:33:28Z">
+    <groups>
+      <group name="Sanity">
+        <method signature="CarLoan.logintoBranchforCarLoan()[pri:0, instance:MavenProject.FirstScript.CarLoan@5db45159]" name="logintoBranchforCarLoan" class="MavenProject.FirstScript.CarLoan"/>
+        <method signature="Homeloan.logintoBranchforHomeLoan()[pri:0, instance:MavenProject.FirstScript.Homeloan@7a52f2a2]" name="logintoBranchforHomeLoan" class="MavenProject.FirstScript.Homeloan"/>
+        <method signature="PersonalLoan.logintoBranchforPersonalLoan()[pri:0, instance:MavenProject.FirstScript.PersonalLoan@78047b92]" name="logintoBranchforPersonalLoan" class="MavenProject.FirstScript.PersonalLoan"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test name="Test" duration-ms="43" started-at="2022-10-25T23:33:28Z" finished-at="2022-10-25T23:33:28Z">
+      <class name="MavenProject.FirstScript.CarLoan">
+        <test-method status="PASS" signature="logintoAPPforCarLoan()[pri:0, instance:MavenProject.FirstScript.CarLoan@5db45159]" name="logintoAPPforCarLoan" duration-ms="1" started-at="2022-10-25T11:33:28Z" finished-at="2022-10-25T11:33:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoAPPforCarLoan -->
+        <test-method status="PASS" signature="logintoBranchforCarLoan()[pri:0, instance:MavenProject.FirstScript.CarLoan@5db45159]" name="logintoBranchforCarLoan" duration-ms="0" started-at="2022-10-25T11:33:28Z" finished-at="2022-10-25T11:33:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoBranchforCarLoan -->
+      </class> <!-- MavenProject.FirstScript.CarLoan -->
+      <class name="MavenProject.FirstScript.PersonalLoan">
+        <test-method status="PASS" signature="logintoAPPforPersonalLoan()[pri:0, instance:MavenProject.FirstScript.PersonalLoan@78047b92]" name="logintoAPPforPersonalLoan" duration-ms="13" started-at="2022-10-25T11:33:28Z" finished-at="2022-10-25T11:33:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoAPPforPersonalLoan -->
+        <test-method status="PASS" signature="logintoBranchforPersonalLoan()[pri:0, instance:MavenProject.FirstScript.PersonalLoan@78047b92]" name="logintoBranchforPersonalLoan" duration-ms="2" started-at="2022-10-25T11:33:28Z" finished-at="2022-10-25T11:33:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoBranchforPersonalLoan -->
+      </class> <!-- MavenProject.FirstScript.PersonalLoan -->
+      <class name="MavenProject.FirstScript.Homeloan">
+        <test-method status="PASS" signature="logintoAPPforHomeLoan()[pri:0, instance:MavenProject.FirstScript.Homeloan@7a52f2a2]" name="logintoAPPforHomeLoan" duration-ms="1" started-at="2022-10-25T11:33:28Z" finished-at="2022-10-25T11:33:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoAPPforHomeLoan -->
+        <test-method status="PASS" signature="logintoBranchforHomeLoan()[pri:0, instance:MavenProject.FirstScript.Homeloan@7a52f2a2]" name="logintoBranchforHomeLoan" duration-ms="0" started-at="2022-10-25T11:33:28Z" finished-at="2022-10-25T11:33:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoBranchforHomeLoan -->
+      </class> <!-- MavenProject.FirstScript.Homeloan -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
